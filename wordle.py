@@ -54,6 +54,10 @@ for word in f:
         elif word.index(char) > 2: 
             alphAfterMidLetters[char] += 1
 
+    #if (word.find('a') != -1) and word.index('a') == 1:
+    #    if (word.find('l') != -1) and word.index('l') == 3:
+    #       print(word)
+         
     for value in digraphs: 
         if word.find(value) != -1:
             #print(word)
